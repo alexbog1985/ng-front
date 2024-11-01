@@ -1,3 +1,26 @@
-h1 {
-    color: orange;
+.header {
+    background-image: url("/images/banner-bg.jpg");
+
+    display: flex;
+    justify-content: space-between;
+    width: 1660px;
+    height: 450px;
+}
+
+.logo_img {
+    width: 100px;
+}
+
+.main_menu {
+    font-family: ;
+    color: white;
+}
+
+.main_menu__list {
+    list-style: none;
+    display: flex;
+}
+
+.main_menu__list__item {
+    margin-right: 20px;
 }
