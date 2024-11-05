@@ -18,7 +18,7 @@ body {
   margin: 0;
 }
 
-.header:before {
+.header::before {
   content: "";
   display: block;
   background-color: #000000;
@@ -50,13 +50,18 @@ body {
   z-index: 2;
 }
 
+.main_menu__logo_link {
+  text-decoration: none;
+}
+
 .logo_img {
-  margin-top: 35px;
-  width: 180px;
+  margin-top: 29px;
+  width: 179px;
 }
 
 .main_menu__list {
-  margin-top: 45px;
+  margin: 46px 0 0 0;
+  padding: 0;
   list-style: none;
   display: flex;
 }
@@ -82,7 +87,6 @@ h1 {
   font-size: 45px;
   white-space: pre-line;
   color: #ffffff;
-  font-weight: bold;
   line-height: 75px;
   text-transform: uppercase;
   text-align: center;
@@ -93,8 +97,29 @@ h1 {
 }
 
 .trends {
-  position: relative;
-  height: 440px;
-  background-color: aqua;
-  align-content: center;
+  width: 100%;
+  height: 443px;
+  background: #ffffff;
+
+  padding: 59px 0 0 0;
+  box-sizing: border-box;
+  color: #0f0d0e;
+}
+
+.trends__title {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+
+.trends__title::after {
+  content: "";
+  display: block;
+  margin: 10px auto 0;
+
+  width: 67px;
+  height: 3px;
+
+  border-bottom: 3px solid rgb(181, 159, 91, 0.4);
 }
