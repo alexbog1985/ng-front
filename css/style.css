@@ -1,7 +1,8 @@
 body {
   font-family: "OpenSans", sans-serif;
 
-  margin: 0;
+  margin: 0 auto;
+  max-width: 1660px;
 }
 
 .header {
@@ -18,7 +19,7 @@ body {
   margin: 0;
 }
 
-.header::before {
+.header::before, .trends__card::before {
   content: "";
   display: block;
   background-color: #000000;
@@ -131,11 +132,24 @@ h1 {
     width: 100%;
 }
 
+.trends__img {
+  width: 100%;
+}
+
 .trends__card {
-    max-width: 493px;
-    max-height: 493px;
+  position: relative;
 }
 
 .trends__card:nth-child(n + 2) {
-    margin-left: 4px;
+  margin-left: 4px;
+}
+
+.trends__text {
+  position: absolute;
+  bottom: 20px;
+  left: 22px;
+  right: 22px;
+  border: 3px solid #b59f5b;
+
+  z-index: 2;
 }
