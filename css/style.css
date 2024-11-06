@@ -149,7 +149,17 @@ h1 {
   bottom: 20px;
   left: 22px;
   right: 22px;
-  border: 3px solid #b59f5b;
+  border: 3px solid rgba(181, 159, 91, 0.6);
 
   z-index: 2;
+}
+
+.trend__category {
+  display: block;
+  color: #b59f5b;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  word-spacing: 20px;
+  margin: 30px 34px;
 }
