@@ -123,3 +123,19 @@ h1 {
 
   border-bottom: 3px solid rgb(181, 159, 91, 0.4);
 }
+
+.trends__card__list {
+    display: flex;
+    margin-top: 21px;
+
+    width: 100%;
+}
+
+.trends__card {
+    max-width: 493px;
+    max-height: 493px;
+}
+
+.trends__card:nth-child(n + 2) {
+    margin-left: 4px;
+}
