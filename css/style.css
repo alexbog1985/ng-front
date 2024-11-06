@@ -58,13 +58,14 @@ body {
 }
 
 .logo_img {
-  margin-top: 30px;
+  margin-top: 29px;
+  margin-left: 2px;
 
   width: 180px;
 }
 
 .main_menu__list {
-  margin: 40px 0 0 0;
+  margin: 38px 0 0 0;
   padding: 0;
   list-style: none;
   display: flex;
@@ -102,7 +103,6 @@ h1 {
 
 .trends {
   width: 100%;
-  height: 443px;
   background: #ffffff;
 
   padding: 58px 0 0 0;
@@ -120,17 +120,16 @@ h1 {
 .trends__title::after {
   content: "";
   display: block;
-  margin: 10px auto 0;
+  margin: 8px auto 0;
 
   width: 67px;
-  height: 3px;
 
   border-bottom: 3px solid rgb(181, 159, 91, 0.4);
 }
 
 .trends__card__list {
     display: flex;
-    margin-top: 21px;
+    margin-top: 27px;
 
     width: 100%;
 }
@@ -141,6 +140,9 @@ h1 {
 
 .trends__card {
   position: relative;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .trends__card:nth-child(n + 2) {
@@ -150,8 +152,8 @@ h1 {
 .trends__text {
   position: absolute;
   bottom: 20px;
-  left: 1em;
-  right: 1em;
+  left: 18px;
+  right: 24px;
   border: 3px solid rgba(181, 159, 91, 0.6);
   max-height: 100%;
 
@@ -164,16 +166,16 @@ h1 {
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
-  word-spacing: 20px;
-  margin: 38px 0 11px 34px;
+  word-spacing: 15px;
+  margin: 33px 0 6px 33px;
 }
 
 .trend__title {
   font-size: 20px;
   color: #ffffff;
-  font-weight: normal;
+  font-weight: bold;
   text-transform: uppercase;
   white-space: pre-line;
   line-height: 24px;
-  margin: 0 0 37px 34px;
+  margin: 0 0 33px 33px;
 }
